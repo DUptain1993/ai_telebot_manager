@@ -1,7 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Button from 'components/ui/Button';
-import Icon from 'components/AppIcon';
+
+// Local Components - Corrected paths to go up one directory
+import Button from '../components/ui/Button';
+import Icon from '../components/AppIcon';
 
 const NotFound = () => {
   const navigate = useNavigate();
@@ -19,7 +21,9 @@ const NotFound = () => {
           </div>
         </div>
 
-        <h2 className="text-2xl font-medium text-onBackground mb-2">Page Not Found</h2>
+        <h2 className="text-2xl font-medium text-onBackground mb-2">
+          Page Not Found
+        </h2>
         <p className="text-onBackground/70 mb-8">
           The page you're looking for doesn't exist. Let's get you back!
         </p>
