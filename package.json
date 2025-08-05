@@ -14,7 +14,7 @@
   "scripts": {
     "start": "npx vite",
     "build": "npx vite build --sourcemap",
-    "serve": "npx vite preview"
+    "serve": "npx vite preview",
     "dev": "npx vite"
   },
   "eslintConfig": {
